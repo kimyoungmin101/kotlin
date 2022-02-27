@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "816949090060",
+    "firebase_url": "https://aop-part3-chaptor05-default-rtdb.firebaseio.com",
+    "project_id": "aop-part3-chaptor05",
+    "storage_bucket": "aop-part3-chaptor05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816949090060:android:37e4124b3d95ef9ca9db29",
+        "android_client_info": {
+          "package_name": "com.example.aop_part3_chaptor05"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816949090060-3ajh54uslqdmm51mgj5j4jv78ah7capt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBloruLQRJWs1A-0hafGX6dE-BvfLp9cYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816949090060-3ajh54uslqdmm51mgj5j4jv78ah7capt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
