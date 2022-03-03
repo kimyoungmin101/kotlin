@@ -11,19 +11,17 @@ import com.example.aop_part3_chaptor04.dao.ReviewDao
 import com.example.aop_part3_chaptor04.model.History
 import com.example.aop_part3_chaptor04.model.Review
 
-@Database(entities = [History::class, Review::class], version = 2)
+@Database(entities = [History::class, Review::class], version = 3)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun historyDao(): HistoryDao
     abstract fun reviewDao(): ReviewDao
 }
 
 fun getAppDatabase(context: Context): AppDatabase {
-
     val migration_1_2 = object : Migration(1,2) {
         override fun migrate(database: SupportSQLiteDatabase) {
             database.execSQL("CREATE TABLE `REVIEW` (`id` INTEGER, `review` TEXT," + "PRIMARY KEY(`id`))")
         }
-
     }
 
     return Room.databaseBuilder(

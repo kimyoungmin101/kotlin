@@ -1,7 +1,6 @@
 package com.example.aop_part3_chaptor02
 
 import android.annotation.SuppressLint
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

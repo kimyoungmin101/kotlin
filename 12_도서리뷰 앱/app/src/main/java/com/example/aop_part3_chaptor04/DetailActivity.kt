@@ -1,5 +1,6 @@
 package com.example.aop_part3_chaptor04
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room
 import com.bumptech.glide.Glide
@@ -20,8 +21,9 @@ class DetailActivity : AppCompatActivity() {
         db = Room.databaseBuilder(
             applicationContext,
             AppDatabase::class.java,
-            "historyDB"
-        ).build()
+            "BookSearchDB")
+            .build()
+
 
         val bookModel = intent.getParcelableExtra<Book>("bookModel")
 
@@ -35,21 +37,23 @@ class DetailActivity : AppCompatActivity() {
         binding.descriptionTextView.text = bookModel?.description.orEmpty()
 
         Thread {
-            val review = db.reviewDao().getOne(bookModel?.id?.toInt() ?: 0)
+            val review = db.reviewDao().getOne(bookModel?.uid?.toInt() ?: 0)
+            Log.d("This", "review : ${review}")
             runOnUiThread {
-                binding.reviewEditText.setText(review.review.orEmpty())
+                binding.reviewEditText.setText(
+                    review.review.toString() ?: "NO")
             }
         }.start()
+
 
         binding.saveButton.setOnClickListener {
             Thread {
                 db.reviewDao().saveReview(
                     Review(
-                        bookModel?.id?.toInt() ?: 0,
+                        bookModel?.uid?.toInt() ?: 0,
                         binding.reviewEditText.text.toString()
                     )
                 )
-
             }.start()
         }
 

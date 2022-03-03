@@ -49,7 +49,7 @@ class BookAdapter(val clickListener: (Book) -> Unit) : ListAdapter<Book, BookAda
                 oldItem == newItem
 
             override fun areItemsTheSame(oldItem: Book, newItem: Book) =
-                oldItem.id == newItem.id
+                oldItem.uid == newItem.uid
         }
     }
 

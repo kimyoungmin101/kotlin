@@ -8,12 +8,14 @@ import com.example.aop_part3_chaptor04.model.History
 
 @Dao
 interface HistoryDao {
+
     @Query("SELECT * FROM history")
     fun getAll(): List<History>
 
     @Insert
     fun insertHistory(history: History)
 
-    @Query("DELETE FROM history WHERE keyword == :keyword")
-    fun delete(keyword : String)
+    @Query("DELETE FROM history WHERE keyword = :keyword")
+    fun delete(keyword: String)
+
 }

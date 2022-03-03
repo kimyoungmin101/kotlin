@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.KeyEvent
 import android.view.MotionEvent
 import androidx.core.view.isVisible
@@ -34,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         db = Room.databaseBuilder(
             applicationContext,
@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     response.body()?.let {
+                        Log.d("This", "${it.books}")
                         adapter.submitList(it.books)
                     }
                 }
