@@ -235,7 +235,6 @@ class PlayerFragment : Fragment(R.layout.fragment_player) {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-
         retrofit.create(MusicService::class.java)
             .also {
                 it.listMusics()
