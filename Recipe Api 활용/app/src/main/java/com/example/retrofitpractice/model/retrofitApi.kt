@@ -4,7 +4,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object retrofitApi {
-    private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    private const val BASE_URL = "https://openapi.foodsafetykorea.go.kr/"
+
 
     private val retrofit : Retrofit by lazy {
         Retrofit.Builder()

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d919b603-57d9-4aa3-b4c1-2ac7dc7d64fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/KeyResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/Recipe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/RecipeEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/res/layout/recipe_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/PhotoEntity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/res/layout/recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe Api 활용/app/src/main/res/layout/recycler_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrofit 실습/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Retrofit 실습/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewPager2:RecyclerView:BottomNavi 구현/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ViewPager2:RecyclerView:BottomNavi 구현/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25xUtpHqhP08ic1UfTEnUMNujKW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d919b603-57d9-4aa3-b4c1-2ac7dc7d64fb" name="Default Changelist" comment="" />
+      <created>1646468448506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646468448506</updated>
+    </task>
+    <servers />
+  </component>
+</project>
