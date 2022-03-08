@@ -142,8 +142,17 @@ class MainActivity : AppCompatActivity() {
                     response: Response<RecipeEntity>
                 ) {
                     if(response.isSuccessful == true){
+
                         val result = response.body()?.cOOKRCP01?.row
-                        adapter.submitList(result!!)
+
+                        if (response.body()?.cOOKRCP01?.totalCount?.equals("0") == true){
+                            Log.d("this", "검색 실패 : ${response.body()?.cOOKRCP01?.totalCount}")
+                        }
+                        else{
+                            adapter.submitList(result!!)
+                        }
+
+
                     }
                 }
 
@@ -153,6 +162,5 @@ class MainActivity : AppCompatActivity() {
 
             }
         )
-
     }
 }
