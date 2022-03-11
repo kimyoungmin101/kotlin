@@ -1,5 +1,6 @@
 package com.example.retrofitpractice.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -16,6 +17,7 @@ class RecyclerViewAdapter_2 : ListAdapter<Recipe, RecyclerViewAdapter_2.ViewHold
         RecyclerView.ViewHolder(binding.root) {
         fun bind(recipe: Recipe) {
             if (recipe.recipePhoto != "") {
+                Log.d("this", "${recipe.recipePhoto}")
                 putPoster(recipe)
             }
 
