@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/titleLayoutResult"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/linearlayout"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="간단"
+                android:textColor="@color/primaryColor"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 심리테스트"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/firstTestTextView"
+            app:layout_constraintTop_toBottomOf="@id/titleLayoutResult"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="20dp"
+            android:text="연애 심리테스트"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            app:layout_constraintTop_toBottomOf="@id/firstTestTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/viewPagerTest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/secondTestTextView"
+            app:layout_constraintTop_toBottomOf="@id/viewPagerTest"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="20dp"
+            android:text="성격 심리테스트"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            app:layout_constraintTop_toBottomOf="@id/secondTestTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/viewPagerTestSecond"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/thirdTestTextView"
+            app:layout_constraintTop_toBottomOf="@id/viewPagerTestSecond"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="20dp"
+            android:text="기타 심리테스트"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            app:layout_constraintTop_toBottomOf="@id/thirdTestTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/viewPagerTestThird"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</TableLayout>

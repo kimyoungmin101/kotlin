@@ -38,13 +38,11 @@ class DetailActivity : AppCompatActivity() {
 
         Thread {
             val review = db.reviewDao().getOne(bookModel?.uid?.toInt() ?: 0)
-            Log.d("This", "review : ${review}")
             runOnUiThread {
                 binding.reviewEditText.setText(
-                    review.review.toString() ?: "NO")
+                    review.review.toString())
             }
         }.start()
-
 
         binding.saveButton.setOnClickListener {
             Thread {

@@ -16,7 +16,6 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun historyDao(): HistoryDao
     abstract fun reviewDao(): ReviewDao
 }
-
 fun getAppDatabase(context: Context): AppDatabase {
     val migration_1_2 = object : Migration(1,2) {
         override fun migrate(database: SupportSQLiteDatabase) {

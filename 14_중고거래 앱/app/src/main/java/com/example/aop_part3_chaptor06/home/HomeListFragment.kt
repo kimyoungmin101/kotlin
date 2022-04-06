@@ -58,61 +58,58 @@ class HomeListFragment : Fragment(R.layout.fragment_home) {
         articleList.clear()
 
         articleAdapter = ArticleAdapter(
-            onItemClicked = {articleModel ->
-            if(auth.currentUser != null){
-                // 로그인을 한상태
-                if (auth.currentUser?.uid != articleModel.sellerId){
-                    // 내가 올리지 않은 아이템
-                    val chatRoom = ChatListItem(
-                        buyerId = auth.currentUser!!.uid,
-                        sellerId = articleModel.sellerId,
-                        itemTitle = articleModel.title,
-                        key = System.currentTimeMillis()
-                    )
-                    // 내가 올리지 않은 아이템이면 chatRoom을 만들어준다.
-                    userDB.child(auth.currentUser!!.uid)
-                        .child(CHILD_CHAT) // 'chat' 라는 이름의 CHILD_CHAT을 child로 만들어줌
-                        .push()
-                        .setValue(chatRoom)
+            onItemClicked = { articleModel ->
+                if (auth.currentUser != null) {
+                    // 로그인을 한상태
+                    if (auth.currentUser?.uid != articleModel.sellerId) {
+                        // 내가 올리지 않은 아이템
+                        val chatRoom = ChatListItem(
+                            buyerId = auth.currentUser!!.uid,
+                            sellerId = articleModel.sellerId,
+                            itemTitle = articleModel.title,
+                            key = System.currentTimeMillis()
+                        )
+                        // 내가 올리지 않은 아이템이면 chatRoom을 만들어준다.
+                        userDB.child(auth.currentUser!!.uid)
+                            .child(CHILD_CHAT) // 'chat' 라는 이름의 CHILD_CHAT을 child로 만들어줌
+                            .push()
+                            .setValue(chatRoom)
 
-                    userDB.child(articleModel.sellerId)
-                        .child(CHILD_CHAT)
-                        .push()
-                        .setValue(chatRoom)
+                        userDB.child(articleModel.sellerId)
+                            .child(CHILD_CHAT)
+                            .push()
+                            .setValue(chatRoom)
 
-                    Snackbar.make(view, "채팅방이 생성됐습니다. 채팅앱에서 확인해주세요,. ", Snackbar.LENGTH_SHORT).show()
+                        Snackbar.make(view, "채팅방이 생성됐습니다. 채팅앱에서 확인해주세요,. ", Snackbar.LENGTH_SHORT)
+                            .show()
+                    } else {
+                        // 내가 올린 아이템
+                        Snackbar.make(view, "내가 올린 물품 입니다. ", Snackbar.LENGTH_SHORT).show()
+                    }
+                } else {
+                    Snackbar.make(view, "로그인 후 사용해주세요", Snackbar.LENGTH_SHORT).show()
                 }
-                else{
-                    // 내가 올린 아이템
-                    Snackbar.make(view, "내가 올린 물품 입니다. ", Snackbar.LENGTH_SHORT).show()
-                }
-            }
-            else{
-                Snackbar.make(view, "로그인 후 사용해주세요", Snackbar.LENGTH_SHORT).show()
-            }
-        })
+            })
 
-        articleDB = Firebase.database.reference.child(DB_ARTICLES) // Articles라는 database.reference의 최상위에 바로 아래있는 userDB를 Articles를 가져온것,
-        userDB = Firebase.database.reference.child(DB_USERS) // Users라는 database.reference의 최상위에 바로 아래있는 users를 가져온것
+        articleDB =
+            Firebase.database.reference.child(DB_ARTICLES) // Articles라는 database.reference의 최상위에 바로 아래있는 userDB를 Articles를 가져온것,
+        userDB =
+            Firebase.database.reference.child(DB_USERS) // Users라는 database.reference의 최상위에 바로 아래있는 users를 가져온것
         // 위의 DB들은 처음에는 빈상태로 시작한다.
 
         fragmentHomeBinding.itemRecyclerView.layoutManager = LinearLayoutManager(context)
         fragmentHomeBinding.itemRecyclerView.adapter = articleAdapter
 
         fragmentHomeBinding.addFloatingButton.setOnClickListener {
-            context?.let{
-                if (auth.currentUser != null){
+            context?.let {
+                if (auth.currentUser != null) {
                     val intent = Intent(it, AddArticleActivity::class.java)
                     startActivity(intent)
-                }
-                else{
+                } else {
                     Snackbar.make(view, "로그인 후 사용해주세요", Snackbar.LENGTH_SHORT).show()
                 }
             }
-
-
         }
-
         articleDB.addChildEventListener(listener)
 
     }

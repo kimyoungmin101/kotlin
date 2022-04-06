@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79e2ac80-1688-4cf8-9fff-3422a7b3784c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../13_틴더 앱/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/androidTest/java/com/example/aop_part4_chaptor05/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/java/com/example/aop_part4_chaptor05/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_dislike.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_github_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_like.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_star.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/test/java/com/example/aop_part4_chaptor05/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aoppart4chaptor05/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/androidTest/java/com/example/room_mvvm/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/AppDataBase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/adapter/recyclerViewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/dao/HistoryDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/model/History.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/model/HistoryViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/setting/OnItemClick.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/java/com/example/room_mvvm/setting/SetRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/test/java/com/example/room_mvvm/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/androidTest/java/com/example/livedataex/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/java/com/example/livedataex/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/java/com/example/livedataex/MyNumberViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/app/src/test/java/com/example/livedataex/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/androidTest/java/com/example/navigate_fragment/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/TestActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/adapter/LovePagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/adapter/PagerFragmentStateAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/data/LoveTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/data/resultItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/fragment/MyFargment2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/fragment/MyFragment1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/model/InterFaceRetrofit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/model/PhotoEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/java/com/example/navigate_fragment/model/retrofitApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable-v24/bottom_navi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/gray_ellipse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/happy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/linearlayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/splash_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/drawable/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/first_tablayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/second_tablayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/splash_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/layout/test_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/menu/bottom_navi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/app/src/test/java/com/example/navigate_fragment/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../직접앱만들기.심리테스트앱(구현중)/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/AppDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/model/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../12_도서리뷰 앱/app/src/main/java/com/example/aop_part3_chaptor04/model/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_중고거래 앱/app/src/main/java/com/example/aop_part3_chaptor06/home/HomeListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../14_중고거래 앱/app/src/main/java/com/example/aop_part3_chaptor06/home/HomeListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13_틴더 앱/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/androidTest/java/com/example/retrofitpractice/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/androidTest/java/com/example/retrofitpractice/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/KeyResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/KeyResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/Recipe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/model/Recipe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/RecipeEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/model/RecipeEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/layout/recipe_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/layout/recipe_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/layout/recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/layout/recycler_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/app/src/test/java/com/example/retrofitpractice/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/test/java/com/example/retrofitpractice/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recipe Api 활용/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_계산기앱/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/androidTest/java/com/example/retrofitpractice/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/androidTest/java/com/example/retrofitpractice/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/java/com/example/retrofitpractice/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/java/com/example/retrofitpractice/adapter/RecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/java/com/example/retrofitpractice/model/InterFaceRetrofit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/java/com/example/retrofitpractice/model/PhotoEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/java/com/example/retrofitpractice/model/PhotoEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/java/com/example/retrofitpractice/model/retrofitApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/layout/recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/layout/recycler_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/app/src/test/java/com/example/retrofitpractice/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/app/src/test/java/com/example/retrofitpractice/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrofit 실습/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../직접앱만들기,레시피 검색앱/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aoppart4chaptor05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/androidTest/java/com/example/viewpagerpracticeagain/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/androidTest/java/com/example/viewpagerpracticeagain/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/RecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/RecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/AddFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/AddFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/fragment/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/model/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/model/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/viewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/java/com/example/viewpagerpracticeagain/viewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/drawable/add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/drawable/add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/drawable/home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/drawable/home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/drawable/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/drawable/profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/layout/item_article.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/layout/item_article.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/menu/bottom_navi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/menu/bottom_navi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/app/src/test/java/com/example/viewpagerpracticeagain/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/test/java/com/example/viewpagerpracticeagain/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ROOM, MVVM, RecyclerView 적용 앱/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPager2:RecyclerView:BottomNavi 구현/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,RETROFIT2 연습/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/androidTest/java/com/example/motionlayout_practice/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/androidTest/java/com/example/motionlayout_practice/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/RecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/RecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/SplashScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/SplashScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/ViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/ViewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/add_fragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/add_fragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/home_fragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/home_fragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/java/com/example/motionlayout_practice/profile_faragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/java/com/example/motionlayout_practice/profile_faragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/cute.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/cute.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/toolbar_image_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/toolbar_image_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/drawable/toolbar_image_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/drawable/toolbar_image_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/fragment_add_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/fragment_add_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/fragment_home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/fragment_home_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/fragment_profile_faragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/fragment_profile_faragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/recyclerview_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/recyclerview_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/layout/splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/layout/splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/menu/bottm_navi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/menu/bottm_navi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-anydpi-v26/toolbar_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-anydpi-v26/toolbar_image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-anydpi-v26/toolbar_image_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-anydpi-v26/toolbar_image_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-hdpi/toolbar_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-hdpi/toolbar_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-hdpi/toolbar_image_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-hdpi/toolbar_image_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-mdpi/toolbar_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-mdpi/toolbar_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-mdpi/toolbar_image_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-mdpi/toolbar_image_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xhdpi/toolbar_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xhdpi/toolbar_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xhdpi/toolbar_image_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xhdpi/toolbar_image_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxhdpi/toolbar_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxhdpi/toolbar_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxhdpi/toolbar_image_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxhdpi/toolbar_image_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxxhdpi/toolbar_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxxhdpi/toolbar_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/mipmap-xxxhdpi/toolbar_image_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/mipmap-xxxhdpi/toolbar_image_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/res/xml/splash_screen_scene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/res/xml/splash_screen_scene.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/main/toolbar_image-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/main/toolbar_image-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/app/src/test/java/com/example/motionlayout_practice/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/app/src/test/java/com/example/motionlayout_practice/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.간단한 MVVM패턴/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../연습,ViewPager와RecyclerView:BottomNavi 구현/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../모션레이아웃 연습/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../연습.모션레이아웃 구현/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/test/.android/avd/Pixel_2_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27N2lmRgbwWpLvEIgUs4VuC35yX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1649239259419" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="room_mvvm.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79e2ac80-1688-4cf8-9fff-3422a7b3784c" name="Default Changelist" comment="" />
+      <created>1649146375932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649146375932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

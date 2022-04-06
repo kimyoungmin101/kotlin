@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
             deleteSearchKeyword(it)
         })
 
-
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
@@ -70,14 +69,11 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     response.body()?.let {
-                        Log.d("This", "${it.books}")
                         adapter.submitList(it.books)
                     }
                 }
 
             })
-
-
 
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = adapter
@@ -102,8 +98,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.historyRecyclerView.adapter = historyAdapter
         binding.historyRecyclerView.layoutManager = LinearLayoutManager(this)
-
-
     }
 
     private fun search(text: String) {
