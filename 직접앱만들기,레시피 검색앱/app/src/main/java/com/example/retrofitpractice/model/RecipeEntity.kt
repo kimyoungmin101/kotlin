@@ -8,7 +8,6 @@ data class RecipeEntity(
     val cOOKRCP01: COOKRCP01
 )
 
-
 data class COOKRCP01(
     @SerializedName("RESULT")
     val rESULT: RESULT?,

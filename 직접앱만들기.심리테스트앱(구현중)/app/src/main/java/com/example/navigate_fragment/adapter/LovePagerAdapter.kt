@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.navigate_fragment.R
 import com.example.navigate_fragment.data.LoveTest
@@ -19,7 +18,7 @@ class LovePagerAdapter(private val test: List<LoveTest>, val onItemClicked: (Lov
         @SuppressLint("SetTextI18n")
         fun bind(love: LoveTest) {
             titleTextView.text = "\"${love.title}\""
-            descriptTextView.text = "\"${love.description}\""
+            descriptTextView.text = love.description
 
             itemView.setOnClickListener {
                 onItemClicked(love)

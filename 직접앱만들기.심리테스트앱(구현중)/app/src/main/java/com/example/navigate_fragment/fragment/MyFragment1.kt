@@ -1,72 +1,64 @@
 package com.example.navigate_fragment.fragment
 
+import android.app.PendingIntent.getActivity
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.navigate_fragment.MainActivity
 import com.example.navigate_fragment.TestActivity
 import com.example.navigate_fragment.adapter.LovePagerAdapter
+import com.example.navigate_fragment.data.Article
 import com.example.navigate_fragment.data.LoveTest
 import com.example.navigate_fragment.databinding.FirstTablayoutBinding
+import com.google.android.material.internal.ContextUtils.getActivity
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import org.json.JSONArray
-import org.json.JSONObject
+
 
 class MyFragment1 : Fragment() {
 
     lateinit var binding: FirstTablayoutBinding
+    private val article_one = mutableListOf<LoveTest>()
+    private val article_two = mutableListOf<LoveTest>()
+    private val article_three = mutableListOf<LoveTest>()
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FirstTablayoutBinding.inflate(inflater)
+
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initData("simple_test")
-        initData("simple_test_second")
-        initData("simple_test_third")
-    }
 
-    private fun initData(dataKey : String) {
-        val remoteConfig = Firebase.remoteConfig
-        remoteConfig.setConfigSettingsAsync(
-            remoteConfigSettings {
-                minimumFetchIntervalInSeconds = 0
-            }
-        )
-        remoteConfig.fetchAndActivate().addOnCompleteListener {
-            if (it.isSuccessful) {
-                binding.progressBar.visibility = View.GONE // remoteConfig fectch가 완료 되면 사라지게 함, gone으로 사라지게 가능 !
-                val tests = parseQuotesJson(remoteConfig.getString("${dataKey}"))
-                displayQuotesPager(tests, dataKey)
-            }
-        }
-    }
+        // Framgent에서 actiity 메서드 접근가능 !
+        val first_test = (activity as MainActivity).one
+        val second_test = (activity as MainActivity).two
+        val third_test = (activity as MainActivity).three
 
-    private fun parseQuotesJson(json: String): List<LoveTest> {
-        val jsonArray = JSONArray(json)
-        var jsonList = emptyList<JSONObject>()
-        for (index in 0 until jsonArray.length()) {
-            val jsonObject = jsonArray.getJSONObject(index)
-            jsonObject?.let {
-                jsonList = jsonList + it
-            }
+        first_test.article.map {
+            article_one.add(it)
         }
-        return jsonList.map {
-            LoveTest(
-                title = it.getString("title"),
-                description = it.getString("description"),
-            )
+
+        second_test.article.map {
+            article_two.add(it)
         }
+
+        third_test.article.map {
+            article_three.add(it)
+        }
+
+        displayQuotesPager(article_one, "simple_test")
+        displayQuotesPager(article_two, "simple_test_second")
+        displayQuotesPager(article_three, "simple_test_third")
+
+
     }
 
     private fun displayQuotesPager(tests: List<LoveTest>, dataKey: String) {
@@ -75,14 +67,19 @@ class MyFragment1 : Fragment() {
             onItemClicked = {articleModel ->
                 val title = articleModel.title.toString()
                 val description = articleModel.description.toString()
+                val imgurl = articleModel.imgurl
+                val question = articleModel.question
+                val answer = articleModel.answer
+                val result = articleModel.result
 
-                val article = LoveTest(title, description)
+                val article = LoveTest(title, description, imgurl, question, answer, result)
 
                 val intent = Intent(getActivity(), TestActivity::class.java)
                 intent.putExtra("dataItem", article)
                 startActivity(intent)
             }
         )
+
         when(dataKey){
             "simple_test" -> {
                 binding.viewPagerTest.adapter = adapter

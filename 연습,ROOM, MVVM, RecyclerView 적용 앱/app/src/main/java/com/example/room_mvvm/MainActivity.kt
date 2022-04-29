@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity(), OnItemClick {
         binding.recyclerView.adapter = adapter
     }
 
-
     override fun deleteTodo(history: History) {
         historyViewModel.delete(history)
     }
