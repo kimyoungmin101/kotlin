@@ -10,6 +10,7 @@ import com.example.booksearchapp.data.model.Book
 @Database(
     entities = [Book::class], version = 1, exportSchema = false
 )
+
 @TypeConverters(OrmConverter::class)
 abstract class BookSearchDatabase : RoomDatabase() {
 

@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
 
-interface BookSearchApi { // Restrofit에 필요한 Service , Api Key를 받아 api 요청하는 서비스
+interface BookSearchApi {
     @Headers("Authorization: KakaoAK $API_KEY")
     @GET("v3/search/book")
     suspend fun searchBooks(

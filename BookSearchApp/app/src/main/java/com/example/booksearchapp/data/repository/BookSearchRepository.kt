@@ -1,8 +1,9 @@
 package com.example.booksearchapp.data.repository
 
-import androidx.lifecycle.LiveData
+import androidx.paging.PagingData
 import com.example.booksearchapp.data.model.Book
 import com.example.booksearchapp.data.model.SearchResponse
+import kotlinx.coroutines.flow.Flow
 import retrofit2.Response
 
 interface BookSearchRepository {
@@ -17,5 +18,17 @@ interface BookSearchRepository {
 
     suspend fun deleteBooks(book: Book)
 
-    fun getFavortieBooks(): LiveData<List<Book>>
+    fun getFavortieBooks(): Flow<List<Book>>
+
+    // DataStore
+    suspend fun saveSortMode(mode: String)
+
+    suspend fun getSortMode(): Flow<String>
+
+    // Paging
+    fun getFavoritePagingBooks(): Flow<PagingData<Book>>
+
+    fun searchBooksPaging(query: String, sort: String): Flow<PagingData<Book>>
+
+
 }

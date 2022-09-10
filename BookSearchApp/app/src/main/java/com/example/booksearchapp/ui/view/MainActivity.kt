@@ -17,27 +17,15 @@ class MainActivity : AppCompatActivity() {
     private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
-
     private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration // AppBar 타이틀 변경을 위해 Navi마다 다른 타이틀 !
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override
+    fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-//        setUpBottonNavigation()
-//
-//        if (savedInstanceState == null) { // 맨처음 실행하면 search 뜨게함, 앱이 맨 처음으로 생성됐는지 여부에 따라savedInstanceState로 확인가능
-//            binding.bottomNavi.selectedItemId = R.id.fragment_search
-//        }
-
         setupJetpackNavigation()
-
-//        val database = BookSearchDatabase.getInstacne(this)
-//        val bookSearchRepository = BookSearchRespositoryImp(database)
-//        val factory = BookSearchViewModelProviderFactory(bookSearchRepository, this)
-//        bookSearchViewModel = ViewModelProvider(this, factory)[BookSearchViewModel::class.java]
-
     }
 
     private fun setupJetpackNavigation() {
