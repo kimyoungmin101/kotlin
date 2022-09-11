@@ -12,7 +12,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
     @Singleton
-    @Binds
+    @Binds // BookSearchRepository는 인터페이스이기 때문에 Binds를 사용해서 힐트가 의존성 객체를 생성할 수 있게해줌
     abstract fun bindBookSearchRepository(
         bookSearchRespositoryImp: BookSearchRespositoryImp
     ): BookSearchRepository

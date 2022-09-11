@@ -5,6 +5,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
+import androidx.work.WorkManager
 import com.example.booksearchapp.data.api.BookSearchApi
 import com.example.booksearchapp.data.db.BookSearchDatabase
 import com.example.booksearchapp.util.Constants.BASE_URL
@@ -66,4 +67,15 @@ object AppModule {
         PreferenceDataStoreFactory.create(
             produceFile = { context.preferencesDataStoreFile(DATASTORE_NAME) }
         )
+
+    // WorkManager
+    @Singleton
+    @Provides
+    fun provideWorkManager(@ApplicationContext context: Context): WorkManager =
+        WorkManager.getInstance(context)
+
+    @Singleton
+    @Provides
+    fun provideCacheDeleteResult(): String = "Cache has deleted by Hilt"
+
 }

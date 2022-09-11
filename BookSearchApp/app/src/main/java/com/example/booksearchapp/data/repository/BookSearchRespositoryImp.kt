@@ -1,10 +1,7 @@
 package com.example.booksearchapp.data.repository
 
 import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.core.emptyPreferences
-import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.core.*
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
@@ -12,6 +9,7 @@ import com.example.booksearchapp.data.api.BookSearchApi
 import com.example.booksearchapp.data.db.BookSearchDatabase
 import com.example.booksearchapp.data.model.Book
 import com.example.booksearchapp.data.model.SearchResponse
+import com.example.booksearchapp.data.repository.BookSearchRespositoryImp.PreferenceKeys.CACHE_DELETE_MODE
 import com.example.booksearchapp.data.repository.BookSearchRespositoryImp.PreferenceKeys.SORT_MODE
 import com.example.booksearchapp.util.Constants.PAGING_SIZE
 import com.example.booksearchapp.util.Sort
@@ -53,6 +51,7 @@ class BookSearchRespositoryImp @Inject constructor(
 
     private object PreferenceKeys {
         val SORT_MODE = stringPreferencesKey("sort_mode")
+        val CACHE_DELETE_MODE = booleanPreferencesKey("cache_delete_mode")
     }
 
     override suspend fun saveSortMode(mode: String) {
@@ -90,7 +89,7 @@ class BookSearchRespositoryImp @Inject constructor(
     }
 
     override fun searchBooksPaging(query: String, sort: String): Flow<PagingData<Book>> {
-        val pagingSourceFactory = { BookSearchPagingSource(query, sort) }
+        val pagingSourceFactory = { BookSearchPagingSource(api, query, sort) }
 
         return Pager(
             config = PagingConfig(
@@ -100,6 +99,27 @@ class BookSearchRespositoryImp @Inject constructor(
             ),
             pagingSourceFactory = pagingSourceFactory
         ).flow
+    }
+
+    override suspend fun saveCacheDeleteMode(mode: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[CACHE_DELETE_MODE] = mode
+        }
+    }
+
+    override suspend fun getCacheDeleteMode(): Flow<Boolean> {
+        return dataStore.data
+            .catch { exception ->
+                if (exception is IOException) {
+                    exception.printStackTrace()
+                    emit(emptyPreferences())
+                } else {
+                    throw exception
+                }
+            }
+            .map { prefs ->
+                prefs[CACHE_DELETE_MODE] ?: false
+            }
     }
 
 

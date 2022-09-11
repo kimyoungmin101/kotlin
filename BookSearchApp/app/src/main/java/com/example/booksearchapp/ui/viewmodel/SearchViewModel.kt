@@ -1,10 +1,11 @@
 package com.example.booksearchapp.ui.viewmodel
 
-import androidx.lifecycle.*
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.example.booksearchapp.data.model.Book
-import com.example.booksearchapp.data.model.SearchResponse
 import com.example.booksearchapp.data.repository.BookSearchRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -19,17 +20,20 @@ import javax.inject.Inject
 @HiltViewModel
 class SearchViewModel @Inject constructor(
     private val bookSearchRepository: BookSearchRepository,
-    private val savedStateHandle: SavedStateHandle
+    private val savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
-    private val _searchResult = MutableLiveData<SearchResponse>()
-    val searchResult: LiveData<SearchResponse> get() = _searchResult
 
-    fun searchBooks(query: String) = viewModelScope.launch(Dispatchers.IO) {
-        val response = bookSearchRepository.searchBooks(query, getSortMode(), 1, 15)
-        if (response.isSuccessful) {
-            response.body()?.let { body ->
-                _searchResult.postValue(body)
-            }
+    // Paging
+    private val _searchPagingResult = MutableStateFlow<PagingData<Book>>(PagingData.empty())
+    val searchPagingResult: StateFlow<PagingData<Book>> = _searchPagingResult.asStateFlow()
+
+    fun searchBooksPaging(query: String) {
+        viewModelScope.launch {
+            bookSearchRepository.searchBooksPaging(query, getSortMode())
+                .cachedIn(viewModelScope)
+                .collect {
+                    _searchPagingResult.value = it
+                }
         }
     }
 
@@ -48,25 +52,9 @@ class SearchViewModel @Inject constructor(
         private const val SAVE_STATE_KEY = "query"
     }
 
-    fun saveSorteMode(value: String) = viewModelScope.launch(Dispatchers.IO) {
-        bookSearchRepository.saveSortMode(value)
-    }
-
+    // DataStore
     suspend fun getSortMode() = withContext(Dispatchers.IO) {
-        bookSearchRepository.getSortMode()
-            .first() // 설정 값 특성상 전체 데이터 스트림을 구독할 필요 없이 단일 스트림 값을 가져올 First를 가져오고 반드시 값을 가져오고 종료되게 w행thcontext로 진행
-    }
-
-    private val _searchPagingResult = MutableStateFlow<PagingData<Book>>(PagingData.empty())
-    val searchPagingResult: StateFlow<PagingData<Book>> = _searchPagingResult.asStateFlow()
-    
-    fun searchBooksPaging(query: String) {
-        viewModelScope.launch {
-            bookSearchRepository.searchBooksPaging(query, getSortMode())
-                .cachedIn(viewModelScope)
-                .collect {
-                    _searchPagingResult.value = it
-                }
-        }
+        bookSearchRepository.getSortMode().first()
     }
 }
+

@@ -1,15 +1,16 @@
 package com.example.booksearchapp.ui.view
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.activityViewModels
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.example.booksearchapp.R
 import com.example.booksearchapp.databinding.FragmentSettingsBinding
-import com.example.booksearchapp.ui.viewmodel.SearchViewModel
+import com.example.booksearchapp.ui.viewmodel.SettingsViewModel
 import com.example.booksearchapp.util.Sort
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -17,7 +18,8 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class SettingsFragment : Fragment() {
     private var _binding: FragmentSettingsBinding? = null
-    private val searchViewModel by activityViewModels<SearchViewModel>()
+    private val settingsViewModel by viewModels<SettingsViewModel>()
+
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -33,16 +35,34 @@ class SettingsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         saveSettings()
         loadSettings()
+        showWorkStatus()
     }
 
     private fun loadSettings() {
         lifecycleScope.launch {
-            val buttonId = when (searchViewModel.getSortMode()) {
+            val buttonId = when (settingsViewModel.getSortMode()) {
                 Sort.ACCURACY.value -> R.id.rb_accuracy
                 Sort.LATEST.value -> R.id.rb_latest
                 else -> return@launch
             }
             binding.rgSort.check(buttonId)
+        }
+
+        // WorkManager
+        lifecycleScope.launch {
+            val mode = settingsViewModel.getCacheDeleteMode()
+            binding.swCacheDelete.isChecked = mode
+        }
+    }
+
+    private fun showWorkStatus() {
+        settingsViewModel.getWorkStatus().observe(viewLifecycleOwner) { workInfo ->
+            Log.d("WorkManager", workInfo.toString())
+            if (workInfo.isEmpty()) {
+                binding.tvWorkStatus.text = "No works"
+            } else {
+                binding.tvWorkStatus.text = workInfo[0].state.toString()
+            }
         }
     }
 
@@ -53,12 +73,24 @@ class SettingsFragment : Fragment() {
                 R.id.rb_latest -> Sort.LATEST.value
                 else -> return@setOnCheckedChangeListener
             }
-            searchViewModel.saveSorteMode(value)
+            settingsViewModel.saveSortMode(value)
+        }
+
+        // WorkManager
+        binding.swCacheDelete.setOnCheckedChangeListener { _, isChecked ->
+            settingsViewModel.saveCacheDeleteMode(isChecked)
+            if (isChecked) {
+                settingsViewModel.setWork()
+            } else {
+                settingsViewModel.deleteWork()
+            }
         }
     }
+
 
     override fun onDestroyView() {
         _binding = null
         super.onDestroyView()
     }
+
 }

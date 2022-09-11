@@ -48,31 +48,6 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp() // 뒤로가기 버튼 활ㄹ성화
     }
-//
-//    private fun setUpBottonNavigation() {
-//        binding.bottomNavi.setOnItemSelectedListener { item ->
-//            when (item.itemId) {
-//                R.id.fragment_search -> {
-//                    supportFragmentManager.beginTransaction()
-//                        .replace(R.id.frame_layout, SearchFragment()).commit()
-//                    true
-//                }
-//                R.id.fragment_favorite -> {
-//                    supportFragmentManager.beginTransaction()
-//                        .replace(R.id.frame_layout, FavoriteFragment()).commit()
-//                    true
-//                }
-//                R.id.fragment_settings -> {
-//                    supportFragmentManager.beginTransaction()
-//                        .replace(R.id.frame_layout, SettingFragment()).commit()
-//                    true
-//                }
-//                else -> {
-//                    false
-//                }
-//            }
-//        }
-//    }
 
 
 }

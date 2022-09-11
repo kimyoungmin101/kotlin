@@ -30,5 +30,8 @@ interface BookSearchRepository {
 
     fun searchBooksPaging(query: String, sort: String): Flow<PagingData<Book>>
 
+    // WorkManager
+    suspend fun saveCacheDeleteMode(mode: Boolean)
 
+    suspend fun getCacheDeleteMode(): Flow<Boolean>
 }
