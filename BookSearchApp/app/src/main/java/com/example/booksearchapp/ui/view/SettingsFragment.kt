@@ -18,9 +18,11 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class SettingsFragment : Fragment() {
     private var _binding: FragmentSettingsBinding? = null
-    private val settingsViewModel by viewModels<SettingsViewModel>()
-
     private val binding get() = _binding!!
+
+    //    private lateinit var bookSearchViewModel: BookSearchViewModel
+//    private val bookSearchViewModel by activityViewModels<BookSearchViewModel>()
+    private val settingsViewModel by viewModels<SettingsViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,9 +35,32 @@ class SettingsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+//        bookSearchViewModel = (activity as MainActivity).bookSearchViewModel
+
         saveSettings()
         loadSettings()
         showWorkStatus()
+    }
+
+    private fun saveSettings() {
+        binding.rgSort.setOnCheckedChangeListener { _, checkedId ->
+            val value = when (checkedId) {
+                R.id.rb_accuracy -> Sort.ACCURACY.value
+                R.id.rb_latest -> Sort.LATEST.value
+                else -> return@setOnCheckedChangeListener
+            }
+            settingsViewModel.saveSortMode(value)
+        }
+
+        // WorkManager
+        binding.swCacheDelete.setOnCheckedChangeListener { _, isChecked ->
+            settingsViewModel.saveCacheDeleteMode(isChecked)
+            if (isChecked) {
+                settingsViewModel.setWork()
+            } else {
+                settingsViewModel.deleteWork()
+            }
+        }
     }
 
     private fun loadSettings() {
@@ -66,31 +91,8 @@ class SettingsFragment : Fragment() {
         }
     }
 
-    private fun saveSettings() {
-        binding.rgSort.setOnCheckedChangeListener { _, checkedId ->
-            val value = when (checkedId) {
-                R.id.rb_accuracy -> Sort.ACCURACY.value
-                R.id.rb_latest -> Sort.LATEST.value
-                else -> return@setOnCheckedChangeListener
-            }
-            settingsViewModel.saveSortMode(value)
-        }
-
-        // WorkManager
-        binding.swCacheDelete.setOnCheckedChangeListener { _, isChecked ->
-            settingsViewModel.saveCacheDeleteMode(isChecked)
-            if (isChecked) {
-                settingsViewModel.setWork()
-            } else {
-                settingsViewModel.deleteWork()
-            }
-        }
-    }
-
-
     override fun onDestroyView() {
         _binding = null
         super.onDestroyView()
     }
-
 }
