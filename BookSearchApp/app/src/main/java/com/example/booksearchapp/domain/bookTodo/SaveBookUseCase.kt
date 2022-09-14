@@ -7,7 +7,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-internal class SaveBookUseCase @Inject constructor(
+class SaveBookUseCase @Inject constructor(
     private val bookSearchRepository: BookSearchRepository
 ) : Usecase {
 

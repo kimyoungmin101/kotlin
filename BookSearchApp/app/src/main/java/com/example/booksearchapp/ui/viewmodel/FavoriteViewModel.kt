@@ -6,6 +6,9 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.example.booksearchapp.data.model.Book
 import com.example.booksearchapp.data.repository.BookSearchRepository
+import com.example.booksearchapp.di.UseCaseModule.deleteBookProvide
+import com.example.booksearchapp.di.UseCaseModule.getAllBooksProvide
+import com.example.booksearchapp.di.UseCaseModule.saveBookProvide
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
@@ -21,16 +24,17 @@ class FavoriteViewModel @Inject constructor(
 
     // Paging
     val favoritePagingBooks: StateFlow<PagingData<Book>> =
-        bookSearchRepository.getFavoritePagingBooks()
+        getAllBooksProvide(bookSearchRepository)
             .cachedIn(viewModelScope)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), PagingData.empty())
 
     // Room
     fun saveBook(book: Book) = viewModelScope.launch(Dispatchers.IO) {
-        bookSearchRepository.insertBooks(book)
+        saveBookProvide(bookSearchRepository, book)
     }
 
     fun deleteBook(book: Book) = viewModelScope.launch(Dispatchers.IO) {
-        bookSearchRepository.deleteBooks(book)
+        deleteBookProvide(bookSearchRepository, book)
     }
+
 }

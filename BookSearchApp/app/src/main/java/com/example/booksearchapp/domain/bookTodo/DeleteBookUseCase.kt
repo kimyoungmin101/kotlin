@@ -7,7 +7,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-internal class DeleteBookUseCase @Inject constructor(
+class DeleteBookUseCase @Inject constructor(
     private val bookSearchRepository: BookSearchRepository
 ) : Usecase {
 
