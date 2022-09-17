@@ -26,8 +26,6 @@ class BookSearchPagingSource(
             val nextKey = if (endOfPaginationReached) {
                 null
             } else {
-                // initial load size = 3 * NETWORK_PAGE_SIZE
-                // ensure we're not requesting duplicating items, at the 2nd request
                 pageNumber + (params.loadSize / PAGING_SIZE)
             }
             LoadResult.Page(
