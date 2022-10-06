@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/letsCampingSearch"
+        android:title="@string/search"
+        android:icon="@drawable/search">
+    </item>
+
+    <item
+        android:id="@+id/letsCampingFavorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/favorite"
+        >
+    </item>
+
+    <item
+        android:id="@+id/letsCampingSettings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"
+        >
+    </item>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/letscamp_nav_graph"
+    app:startDestination="@id/letsCampingSearch">
+
+    <fragment
+        android:id="@+id/letsCampingFavorite"
+        android:name="com.example.lets_camping.presantation.view.LetsCampingFavorite"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_lets_camping_favorite" />
+    <fragment
+        android:id="@+id/letsCampingSettings"
+        android:name="com.example.lets_camping.presantation.view.LetsCampingSettings"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_lets_camping_settings" />
+    <fragment
+        android:id="@+id/letsCampingSearch"
+        android:name="com.example.lets_camping.presantation.view.LetsCampingSearch"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_lets_camping_search" />
+</navigation>
