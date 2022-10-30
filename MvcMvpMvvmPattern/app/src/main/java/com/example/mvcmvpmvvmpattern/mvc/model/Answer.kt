@@ -1,7 +1,5 @@
 package com.example.mvcmvpmvvmpattern.mvc.model
 
-import android.widget.Toast
-
 data class Answer(
     var result : String? = null
 ){
